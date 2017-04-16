@@ -8,11 +8,11 @@ module.exports = {
     },
     devtool: 'source-map',
     resolve: {
-        extensions: ['.ts']
+        extensions: ['.ts', '.tsx', '.js']
     },
     module: {
         loaders: [
-            { loader: 'ts-loader' }
+            { test: /\.tsx?$/, loader: 'ts-loader' }
         ]
     }
 };
