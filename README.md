@@ -10,3 +10,4 @@ This kit includes:
 2. cd [your-project-name-folder]
 3. npm install
 4. npm start
+5. remove the .git folder from [your-project-name-folder] and start your own repository
